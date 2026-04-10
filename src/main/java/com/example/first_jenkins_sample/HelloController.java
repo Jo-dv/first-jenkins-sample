@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        System.out.println("test2");
-        return "Hello, Jenkins CI/CD!";
+        System.out.println("test3");
+        return "Hello, Jenkins CI/CD2!";
     }
 }
